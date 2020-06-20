@@ -1,0 +1,22 @@
+@import "../css/bootstrap.css";
+@font-face {
+  font-family: Sahel;
+  src: url("../fonts/Sahel.eot");
+  src: url("../fonts/Sahel.ttf") format("ttf"), url("../fonts/Sahel.woff") format("woff");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl !important;
+  text-align: right;
+}
+
+input {
+  text-align: right !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
