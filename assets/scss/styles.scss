@@ -24,6 +24,14 @@ header {
   z-index: 100;
 }
 
+.mobile {
+  @include mobileFirst(768) {
+    height: 50px;
+    img {
+      width: 105px;
+    }
+  }
+}
 .gallery {
   a {
     color: white;

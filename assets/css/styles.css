@@ -27,6 +27,15 @@ header {
   z-index: 100;
 }
 
+@media (max-width: 768px) {
+  .mobile {
+    height: 50px;
+  }
+  .mobile img {
+    width: 105px;
+  }
+}
+
 .gallery a {
   color: white;
 }
