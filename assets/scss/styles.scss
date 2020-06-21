@@ -18,11 +18,13 @@ body {
 input {
   text-align: right !important;
 }
+
 header {
   position: fixed;
   top: 0;
   z-index: 100;
 }
+
 .gallery {
   a {
     color: white;
@@ -44,9 +46,11 @@ header {
 
 .shoppingCart_login {
   text-align: left !important;
+
   a {
     text-decoration: none;
   }
+
   span {
     color: $color-primary;
     font-size: 13px;
@@ -266,12 +270,52 @@ section {
 .third {
   background-color: $color-tertiary;
 }
+
 .brands {
   background-color: #f3f3f3;
   margin-right: 2px;
   margin-left: 2px;
 }
 
+footer {
+  background-color: #111111;
+  color: $color-tertiary;
+
+  span {
+    font-size: 15px;
+    font-weight: bold;
+    color: $color-primary;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 10px 0 10px 0;
+
+    li {
+      font-size: 13px;
+      line-height: 2.5;
+    }
+
+  }
+}
+
+.social_media, .contact {
+  i {
+    font-size: 19px;
+  }
+}
+.design_by {
+  text-align: center;
+  height: 60px;
+  padding-top: 15px;
+  p {
+    color: white;
+    display: inline-block;
+  }
+  span {
+    color: $color-primary;
+  }
+}
 
 //mega-menu styles
 .author {

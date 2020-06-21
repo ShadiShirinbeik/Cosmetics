@@ -239,6 +239,47 @@ section {
   background-color: #808080;
 }
 
+.brands {
+  background-color: #f3f3f3;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+footer {
+  background-color: #111111;
+  color: #808080;
+}
+footer span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #eb5d7e;
+}
+footer ul {
+  list-style-type: none;
+  margin: 10px 0 10px 0;
+}
+footer ul li {
+  font-size: 13px;
+  line-height: 2.5;
+}
+
+.social_media i, .contact i {
+  font-size: 19px;
+}
+
+.design_by {
+  text-align: center;
+  height: 60px;
+  padding-top: 15px;
+}
+.design_by p {
+  color: white;
+  display: inline-block;
+}
+.design_by span {
+  color: #eb5d7e;
+}
+
 .author {
   position: fixed;
   bottom: 15px;
