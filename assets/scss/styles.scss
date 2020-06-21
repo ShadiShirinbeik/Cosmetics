@@ -36,6 +36,10 @@ header {
       text-decoration: none;
       color: white;
     }
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
   .gallery_right_pic {
     @include tabletFirst(992) {
@@ -177,9 +181,8 @@ section {
 
 .card-img-top {
   margin: 0 auto;
-  height: 245px;
-  width: 81%;
-
+  width: 100%;
+  height: auto;
   &:hover {
     width: 85%;
     -webkit-transition: width .5s ease;
@@ -432,6 +435,9 @@ ul.main-nav > li ul.sub-menu-lists > li {
 ul.main-nav > li ul.sub-menu-lists > li > a {
   font-size: 14px;
   color: black;
+  @include mobileFirst(768) {
+    color: white;
+  }
 
   &:hover {
     color: $color-primary;

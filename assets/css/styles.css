@@ -34,6 +34,10 @@ header {
   text-decoration: none;
   color: white;
 }
+.gallery a img {
+  width: 100%;
+  height: auto;
+}
 @media (max-width: 992px) {
   .gallery .gallery_right_pic {
     margin-left: 10px;
@@ -156,8 +160,8 @@ section {
 
 .card-img-top {
   margin: 0 auto;
-  height: 245px;
-  width: 81%;
+  width: 100%;
+  height: auto;
 }
 .card-img-top:hover {
   width: 85%;
@@ -395,6 +399,11 @@ ul.main-nav > li ul.sub-menu-lists > li {
 ul.main-nav > li ul.sub-menu-lists > li > a {
   font-size: 14px;
   color: black;
+}
+@media (max-width: 768px) {
+  ul.main-nav > li ul.sub-menu-lists > li > a {
+    color: white;
+  }
 }
 ul.main-nav > li ul.sub-menu-lists > li > a:hover {
   color: #eb5d7e;
