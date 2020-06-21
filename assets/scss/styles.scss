@@ -18,7 +18,11 @@ body {
 input {
   text-align: right !important;
 }
-
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
 .gallery {
   a {
     color: white;
@@ -30,7 +34,6 @@ input {
   }
 }
 
-
 .black {
   background-color: $black;
 }
@@ -39,8 +42,15 @@ input {
   border-radius: 7px;
 }
 
-.shoppingCart_favorites {
+.shoppingCart_login {
   text-align: left !important;
+  a {
+    text-decoration: none;
+  }
+  span {
+    color: $color-primary;
+    font-size: 13px;
+  }
 
   button {
     background: none;
@@ -50,11 +60,6 @@ input {
     i {
       font-size: 17px;
       color: white;
-    }
-
-    span {
-      color: $color-primary;
-      font-size: 13px;
     }
   }
 }
@@ -225,7 +230,8 @@ section {
 .our_services_text {
   width: 60%;
   background-color: white;
-  //border-radius: 0 7px 7px 0;
+  border-radius: 0 7px 7px 0;
+
   :first-child {
     margin: 10px;
     font-weight: bold;
@@ -240,7 +246,7 @@ section {
 
 .our_services_icon {
   display: flex;
-  //border-radius: 7px 0 0 7px;
+  border-radius: 7px 0 0 7px;
   width: 40%;
   height: 130px;
   color: white;
@@ -260,6 +266,8 @@ section {
 .third {
   background-color: $color-tertiary;
 }
+
+
 
 //mega-menu styles
 .author {
@@ -455,7 +463,6 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   }
 
   /*
-
   .ic.menu:focus ~ .ic.close { opacity: 1.0; z-index : 21;  }
   .ic.close:focus { opacity: 0; }
   */
