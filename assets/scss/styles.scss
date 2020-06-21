@@ -19,14 +19,17 @@ input {
   text-align: right !important;
 }
 
-a {
-  color: white;
-
-  &:hover {
-    text-decoration: none;
+.gallery {
+  a {
     color: white;
+
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
+
 
 .black {
   background-color: $black;
@@ -97,6 +100,9 @@ section {
 
   .arrow_icons {
     float: left;
+    a {
+      color: white;
+    }
   }
 
   a {
@@ -113,7 +119,7 @@ section {
   right: 10px;
   top: 10px;
   i {
-    font-size: 33px;
+    font-size: 35px;
   }
   div {
     right: 10px;
@@ -186,6 +192,7 @@ section {
 }
 
 
+//mega-menu styles
 .author {
   position: fixed;
   bottom: 15px;
@@ -227,7 +234,7 @@ ul.main-nav {
   list-style-type: none;
   padding: 0;
   font-size: 0;
-  max-width: 1000px;
+  max-width: 95%;
   margin: 0 auto;
 }
 
@@ -268,8 +275,12 @@ ul.main-nav > li ul.sub-menu-lists > li {
 
 ul.main-nav > li ul.sub-menu-lists > li > a {
   font-size: 14px;
+  color: black;
+  &:hover {
+    color: $color-primary;
+    text-decoration: none;
+  }
 }
-
 .ic {
   position: fixed;
   cursor: pointer;
@@ -382,7 +393,6 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     opacity: 1;
   }
 
-
   nav {
     background-color: transparent;
   }
@@ -445,7 +455,6 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   }
 
   ul.main-nav > li ul.sub-menu-lists > li a {
-    color: #eee;
     font-size: 14px;
   }
   .sub-menu-head {
@@ -505,7 +514,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     color: #333;
     left: 0;
     box-sizing: border-box;
-    z-index: 3;
+    z-index: 100;
     font-size: 16px;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;

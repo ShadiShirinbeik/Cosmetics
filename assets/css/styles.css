@@ -21,10 +21,10 @@ input {
   text-align: right !important;
 }
 
-a {
+.gallery a {
   color: white;
 }
-a:hover {
+.gallery a:hover {
   text-decoration: none;
   color: white;
 }
@@ -90,6 +90,9 @@ section {
 .controls-top .arrow_icons {
   float: left;
 }
+.controls-top .arrow_icons a {
+  color: white;
+}
 .controls-top a {
   background-color: #b6b6b6;
   padding: 3px 7.5px 0 8.5px;
@@ -104,7 +107,7 @@ section {
   top: 10px;
 }
 .badge i {
-  font-size: 33px;
+  font-size: 35px;
 }
 .badge div {
   right: 10px;
@@ -217,7 +220,7 @@ ul.main-nav {
   list-style-type: none;
   padding: 0;
   font-size: 0;
-  max-width: 1000px;
+  max-width: 95%;
   margin: 0 auto;
 }
 
@@ -258,6 +261,11 @@ ul.main-nav > li ul.sub-menu-lists > li {
 
 ul.main-nav > li ul.sub-menu-lists > li > a {
   font-size: 14px;
+  color: black;
+}
+ul.main-nav > li ul.sub-menu-lists > li > a:hover {
+  color: #eb5d7e;
+  text-decoration: none;
 }
 
 .ic {
@@ -440,7 +448,6 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   }
 
   ul.main-nav > li ul.sub-menu-lists > li a {
-    color: #eee;
     font-size: 14px;
   }
 
@@ -508,7 +515,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     color: #333;
     left: 0;
     box-sizing: border-box;
-    z-index: 3;
+    z-index: 100;
     font-size: 16px;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
