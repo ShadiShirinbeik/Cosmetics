@@ -180,6 +180,54 @@ section {
   border-radius: 7px 0 0 7px;
 }
 
+.our_services_title {
+  font-weight: bold;
+}
+.our_services_title i {
+  color: #eb5d7e;
+}
+
+.our_services_body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our_services_text {
+  width: 60%;
+  background-color: white;
+}
+.our_services_text :first-child {
+  margin: 10px;
+  font-weight: bold;
+}
+.our_services_text :last-child {
+  margin: 10px;
+  font-size: 13.5px;
+  text-align: justify;
+}
+
+.our_services_icon {
+  display: flex;
+  width: 40%;
+  height: 130px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first {
+  background-color: #eb5d7e;
+}
+
+.second {
+  background-color: #07bba3;
+}
+
+.third {
+  background-color: #808080;
+}
+
 .author {
   position: fixed;
   bottom: 15px;

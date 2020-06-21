@@ -34,9 +34,11 @@ input {
 .black {
   background-color: $black;
 }
+
 .radius {
   border-radius: 7px;
 }
+
 .shoppingCart_favorites {
   text-align: left !important;
 
@@ -100,6 +102,7 @@ section {
 
   .arrow_icons {
     float: left;
+
     a {
       color: white;
     }
@@ -115,12 +118,15 @@ section {
     }
   }
 }
+
 .badge {
   right: 10px;
   top: 10px;
+
   i {
     font-size: 35px;
   }
+
   div {
     right: 10px;
     top: 14px;
@@ -128,16 +134,20 @@ section {
     color: white;
   }
 }
+
 .color_primary {
   color: $color-primary;
 }
+
 .color_secondary {
   color: $color-secondary;
 }
+
 .card-img-top {
   margin: 0 auto;
   height: 245px;
   width: 81%;
+
   &:hover {
     width: 85%;
     -webkit-transition: width .5s ease;
@@ -146,16 +156,19 @@ section {
     transition: width .5s ease;
   }
 }
+
 .card-body {
   p {
     margin-top: 15px;
     font-size: 13px;
   }
+
   .rating {
     float: left;
     font-size: 13px;
     color: $color-tertiary;
   }
+
   .rated {
     color: $color-primary;
   }
@@ -165,6 +178,7 @@ section {
   float: left;
   margin-top: 10px;
   font-size: 18px;
+
   :first-child {
     font-weight: bold;
   }
@@ -173,24 +187,79 @@ section {
 .about_us {
   background-color: #f3f3f3;
   margin: 2px;
+
   span {
     font-size: 30px;
     font-weight: bold;
   }
+
   p {
     line-height: 2;
     margin-top: 10px;
   }
+
   button {
     color: white;
     background-color: $color-primary;
   }
+
   img {
     height: 350px;
     border-radius: 7px 0 0 7px;
   }
 }
 
+.our_services_title {
+  font-weight: bold;
+
+  i {
+    color: $color-primary;
+  }
+}
+
+.our_services_body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our_services_text {
+  width: 60%;
+  background-color: white;
+  //border-radius: 0 7px 7px 0;
+  :first-child {
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  :last-child {
+    margin: 10px;
+    font-size: 13.5px;
+    text-align: justify;
+  }
+}
+
+.our_services_icon {
+  display: flex;
+  //border-radius: 7px 0 0 7px;
+  width: 40%;
+  height: 130px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first {
+  background-color: $color-primary;
+}
+
+.second {
+  background-color: $color-secondary;
+}
+
+.third {
+  background-color: $color-tertiary;
+}
 
 //mega-menu styles
 .author {
@@ -276,11 +345,13 @@ ul.main-nav > li ul.sub-menu-lists > li {
 ul.main-nav > li ul.sub-menu-lists > li > a {
   font-size: 14px;
   color: black;
+
   &:hover {
     color: $color-primary;
     text-decoration: none;
   }
 }
+
 .ic {
   position: fixed;
   cursor: pointer;
