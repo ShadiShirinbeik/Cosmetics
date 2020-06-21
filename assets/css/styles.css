@@ -65,9 +65,6 @@ header {
 .shoppingCart_login {
   text-align: left !important;
 }
-.shoppingCart_login a {
-  text-decoration: none;
-}
 .shoppingCart_login span {
   color: #eb5d7e;
   font-size: 13px;

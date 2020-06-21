@@ -9,10 +9,6 @@
   box-sizing: border-box;
   font-family: 'IRANSans', sans-serif;
 }
-//img {
-//  width: 100%;
-//  height: auto;
-//}
 body {
   direction: rtl !important;
   text-align: right;
@@ -68,11 +64,6 @@ header {
 
 .shoppingCart_login {
   text-align: left !important;
-
-  a {
-    text-decoration: none;
-  }
-
   span {
     color: $color-primary;
     font-size: 13px;
