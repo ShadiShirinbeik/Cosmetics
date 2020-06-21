@@ -34,6 +34,21 @@ header {
   text-decoration: none;
   color: white;
 }
+@media (max-width: 992px) {
+  .gallery .gallery_right_pic {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .gallery .gallery_middle_pic {
+    margin: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .gallery .gallery_left_pic {
+    margin-right: 10px;
+  }
+}
 
 .black {
   background-color: black;
@@ -87,6 +102,12 @@ section {
   -moz-transition: font-size 0.5s ease;
   -o-transition: font-size 0.5s ease;
   transition: font-size 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .carousel_items {
+    padding: 5px 5px 5px 5px !important;
+  }
 }
 
 .controls-top .text {
@@ -200,6 +221,11 @@ section {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 992px) {
+  .our_services_body {
+    margin: 10px 0 10px 0;
+  }
+}
 
 .our_services_text {
   width: 60%;
@@ -240,9 +266,16 @@ section {
 }
 
 .brands {
-  background-color: #f3f3f3;
   margin-right: 2px;
   margin-left: 2px;
+}
+.brands div {
+  background-color: #f3f3f3;
+}
+@media (max-width: 768px) {
+  .brands div {
+    margin: 10px 0 10px 0;
+  }
 }
 
 footer {

@@ -1,0 +1,10 @@
+@mixin mobileFirst($media){
+  @media (max-width: $media+px) {
+    @content
+  }
+}
+@mixin tabletFirst($media){
+  @media (max-width: $media+px) {
+    @content
+  }
+}

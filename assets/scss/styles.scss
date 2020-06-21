@@ -9,7 +9,10 @@
   box-sizing: border-box;
   font-family: 'IRANSans', sans-serif;
 }
-
+//img {
+//  width: 100%;
+//  height: auto;
+//}
 body {
   direction: rtl !important;
   text-align: right;
@@ -32,6 +35,21 @@ header {
     &:hover {
       text-decoration: none;
       color: white;
+    }
+  }
+  .gallery_right_pic {
+    @include tabletFirst(992) {
+      margin-left: 10px;
+    }
+  }
+  .gallery_middle_pic {
+    @include tabletFirst(992) {
+      margin: 10px;
+    }
+  }
+  .gallery_left_pic {
+    @include tabletFirst(992) {
+      margin-right: 10px;
     }
   }
 }
@@ -99,6 +117,11 @@ section {
   }
 }
 
+.carousel_items {
+  @include tabletFirst(768) {
+    padding: 5px 5px 5px 5px !important;
+  }
+}
 .controls-top {
   .text {
     float: right;
@@ -229,6 +252,9 @@ section {
 .our_services_body {
   display: flex;
   justify-content: space-between;
+  @include tabletFirst(992) {
+    margin: 10px 0 10px 0;
+  }
 }
 
 .our_services_text {
@@ -272,9 +298,14 @@ section {
 }
 
 .brands {
-  background-color: #f3f3f3;
   margin-right: 2px;
   margin-left: 2px;
+  div {
+    background-color: #f3f3f3;
+    @include tabletFirst(768) {
+      margin: 10px 0 10px 0;
+    }
+  }
 }
 
 footer {
