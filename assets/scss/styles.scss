@@ -164,4 +164,24 @@ section {
   }
 }
 
+.about_us {
+  background-color: #f3f3f3;
+  margin: 2px;
+  span {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  p {
+    line-height: 2;
+    margin-top: 10px;
+  }
+  button {
+    color: white;
+    background-color: $color-primary;
+  }
+  img {
+    height: 350px;
+    border-radius: 7px 0 0 7px;
+  }
+}
 

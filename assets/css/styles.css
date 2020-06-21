@@ -156,4 +156,25 @@ section {
   font-weight: bold;
 }
 
+.about_us {
+  background-color: #f3f3f3;
+  margin: 2px;
+}
+.about_us span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.about_us p {
+  line-height: 2;
+  margin-top: 10px;
+}
+.about_us button {
+  color: white;
+  background-color: #eb5d7e;
+}
+.about_us img {
+  height: 350px;
+  border-radius: 7px 0 0 7px;
+}
+
 /*# sourceMappingURL=styles.css.map */
