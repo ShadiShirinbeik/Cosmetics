@@ -21,8 +21,20 @@ input {
   text-align: right !important;
 }
 
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .black {
   background-color: black;
+}
+
+.radius {
+  border-radius: 7px;
 }
 
 .shoppingCart_favorites {
@@ -47,12 +59,9 @@ input {
 }
 
 section {
-  background-color: #f9f8f4;
+  background-color: #e6e5e1;
 }
 
-.gallery {
-  text-align: center;
-}
 .gallery div .opacity {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -69,6 +78,82 @@ section {
   -moz-transition: font-size 0.5s ease;
   -o-transition: font-size 0.5s ease;
   transition: font-size 0.5s ease;
+}
+
+.controls-top .text {
+  float: right;
+  font-weight: bold;
+}
+.controls-top .text i {
+  color: #eb5d7e;
+}
+.controls-top .arrow_icons {
+  float: left;
+}
+.controls-top a {
+  background-color: #b6b6b6;
+  padding: 3px 7.5px 0px 8.5px;
+  border-radius: 3px;
+}
+.controls-top a:hover, .controls-top a:focus {
+  background-color: #eb5d7e;
+}
+
+.badge {
+  right: 10px;
+  top: 10px;
+}
+.badge i {
+  font-size: 33px;
+}
+.badge div {
+  right: 10px;
+  top: 14px;
+  font-size: 10px;
+  color: white;
+}
+
+.color_primary {
+  color: #eb5d7e;
+}
+
+.color_secondary {
+  color: #07bba3;
+}
+
+.card-img-top {
+  margin: 0 auto;
+  height: 245px;
+  width: 81%;
+}
+.card-img-top:hover {
+  width: 85%;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+.card-body p {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.card-body .rating {
+  float: left;
+  font-size: 13px;
+  color: #808080;
+}
+.card-body .rated {
+  color: #eb5d7e;
+}
+
+.price {
+  float: left;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.price :first-child {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

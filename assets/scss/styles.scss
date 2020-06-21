@@ -19,10 +19,21 @@ input {
   text-align: right !important;
 }
 
+a {
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
 .black {
   background-color: $black;
 }
-
+.radius {
+  border-radius: 7px;
+}
 .shoppingCart_favorites {
   text-align: left !important;
 
@@ -52,8 +63,6 @@ section {
 }
 
 .gallery {
-  text-align: center;
-
   div {
     .opacity {
       background-color: rgba(0, 0, 0, 0.6);
@@ -65,6 +74,7 @@ section {
       align-items: center;
       font-size: 35px;
     }
+
     &:hover {
       font-size: 40px;
       -webkit-transition: font-size .5s ease;
@@ -74,3 +84,84 @@ section {
     }
   }
 }
+
+.controls-top {
+  .text {
+    float: right;
+    font-weight: bold;
+
+    i {
+      color: $color-primary;
+    }
+  }
+
+  .arrow_icons {
+    float: left;
+  }
+
+  a {
+    background-color: #b6b6b6;
+    padding: 3px 7.5px 0px 8.5px;
+    border-radius: 3px;
+
+    &:hover, &:focus {
+      background-color: $color-primary;
+    }
+  }
+}
+.badge {
+  right: 10px;
+  top: 10px;
+  i {
+    font-size: 33px;
+  }
+  div {
+    right: 10px;
+    top: 14px;
+    font-size: 10px;
+    color: white;
+  }
+}
+.color_primary {
+  color: $color-primary;
+}
+.color_secondary {
+  color: $color-secondary;
+}
+.card-img-top {
+  margin: 0 auto;
+  height: 245px;
+  width: 81%;
+  &:hover {
+    width: 85%;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -o-transition: width .5s ease;
+    transition: width .5s ease;
+  }
+}
+.card-body {
+  p {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .rating {
+    float: left;
+    font-size: 13px;
+    color: $color-tertiary;
+  }
+  .rated {
+    color: $color-primary;
+  }
+}
+
+.price {
+  float: left;
+  margin-top: 10px;
+  font-size: 18px;
+  :first-child {
+    font-weight: bold;
+  }
+}
+
+
