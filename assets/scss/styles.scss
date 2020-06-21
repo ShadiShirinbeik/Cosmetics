@@ -101,7 +101,7 @@ section {
 
   a {
     background-color: #b6b6b6;
-    padding: 3px 7.5px 0px 8.5px;
+    padding: 3px 7.5px 0 8.5px;
     border-radius: 3px;
 
     &:hover, &:focus {
@@ -204,62 +204,29 @@ section {
   color: blue;
 }
 
-.dark blockquote {
-  color: #fff;
-}
-
-.light blockquote {
-  color: #000;
-}
-
 blockquote {
   max-width: 1000px;
   margin: 0 auto;
   font-size: 16px;
-  border-left: 0px;
+  border-left: 0;
   padding: 20px;
 }
 
 blockquote h2 {
   padding-right: 40px;
-  margin: 0px;
-}
-
-.dark blockquote a {
-  color: orange;
-  text-decoration: underline;
-}
-
-.light blockquote a {
-  text-decoration: underline;
+  margin: 0;
 }
 
 //header { min-height: 450px; }
-.dark {
-  background-color: #444;
-}
-
-.light {
-  background-color: #fff;
-}
-
 /* Navigation Styles */
 nav {
   position: relative;
 }
 
-header.dark nav {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-header.light nav {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 ul.main-nav {
   list-style-type: none;
-  padding: 0px;
-  font-size: 0px;
+  padding: 0;
+  font-size: 0;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -289,8 +256,8 @@ ul.main-nav > li:hover > a {
 }
 
 ul.main-nav > li ul.sub-menu-lists {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: block;
 }
@@ -311,13 +278,13 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   width: 32px;
   height: 24px;
   text-align: center;
-  top: 0px;
+  top: 0;
   outline: none;
 }
 
 .ic.close {
   opacity: 0;
-  font-size: 0px;
+  font-size: 0;
   font-weight: 300;
   color: #fff;
   top: 8px;
@@ -340,7 +307,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
 }
 
 .ic.menu .line-last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .sub-menu-head {
@@ -359,12 +326,6 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   }
   .ic.menu {
     display: block;
-  }
-  header.dark .ic.menu .line {
-    background-color: #fff;
-  }
-  header.light .ic.menu .line {
-    background-color: #000;
   }
   .ic.menu .line {
     -webkit-transition: all 0.4s ease 0s;
@@ -431,9 +392,9 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     z-index: 2;
     padding: 50px 0;
     position: fixed;
-    right: 0px;
-    top: 0px;
-    width: 0px;
+    right: 0;
+    top: 0;
+    width: 0;
     background-color: rgba(0, 0, 0, 1);
     height: 100%;
     overflow: auto;
@@ -472,7 +433,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     display: none;
   }
   ul.main-nav > li:first-child {
-    border-radius: 0px;
+    border-radius: 0;
   }
   ul.main-nav > li {
     display: block;
@@ -499,9 +460,9 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     font-weight: 600;
   }
   .ic.menu:focus ~ ul.main-nav > li > div.sub-menu-block {
-    border-left: 0px solid #ccc;
-    border-right: 0px solid #ccc;
-    border-bottom: 0px solid #ccc;
+    border-left: 0 solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 0 solid #ccc;
     position: relative;
     visibility: visible;
     opacity: 1.0;
@@ -511,7 +472,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     padding: 0 30px;
   }
   .banners-area {
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
   .banners-area div {
     margin-bottom: 15px;
@@ -539,7 +500,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     visibility: hidden;
     background-color: #f9f9f9;
     position: absolute;
-    margin-top: 0px;
+    margin-top: 0;
     width: 100%;
     color: #333;
     left: 0;
@@ -595,29 +556,15 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     font-size: 20px;
   }
 
-  /* List Separator: Outer Border */
-  header.dark ul.main-nav > li > a {
-    border-right: 1px solid #bbb;
-  }
-  header.light ul.main-nav > li > a {
-    border-right: 1px solid #666;
-  }
-
   /* List Separator: Inner Border */
   ul.main-nav > li > a:after {
     content: '';
     width: 1px;
     height: 62px;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
     z-index: 2;
-  }
-  header.dark ul.main-nav > li > a:after {
-    background-color: #777;
-  }
-  header.light ul.main-nav > li > a:after {
-    background-color: #999;
   }
 
   /* Drop Down/Up Arrow for Mega Menu */
@@ -641,7 +588,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   ul.main-nav > li:hover > a.mega-menu span:after {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 0px solid transparent;
+    border-top: 0 solid transparent;
     border-bottom: 5px solid #666;
   }
   .banners-area {
